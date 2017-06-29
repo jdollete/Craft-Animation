@@ -1,10 +1,37 @@
+html, body {
+  height: 100%;
+}
+
+.outter-box {
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: blue;
+}
+
 .display {
-  display: block;
   background-image: url("https://drive.google.com/uc?id=0B6TyVVxgyVl6angtR1hyVkcySlk");
-  background-position: center;
+  background-position: 20% 0%;
+  background-size: 200%;
   background-repeat: no-repeat;
-  background-size: contain;
   width: 404px;
-  height: 625px;
+  height: 425px;
+  /*vertical-align: middle;*/
   margin: 0 auto;
+}
+
+.fresh-text {
+  display: none;
+}
+
+.super-text {
+  display:none;
+}
+
+.craft-quote {
+  display: none;
+}
+
+.visit-craft {
+  display: none;
 }

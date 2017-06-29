@@ -1,0 +1,10 @@
+.display {
+  display: block;
+  background-image: url("https://drive.google.com/uc?id=0B6TyVVxgyVl6angtR1hyVkcySlk");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 404px;
+  height: 625px;
+  margin: 0 auto;
+}

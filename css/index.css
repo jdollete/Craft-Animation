@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+}
+
+.outter-box {
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  /*background-color: blue;*/
+}
+
+.quote-box {
+  display: block;
+}
+
+.display {
+  display: block;
+  background-image: url("https://drive.google.com/uc?id=0B6TyVVxgyVl6angtR1hyVkcySlk");
+  background-position: 20% 0%;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  width: 404px;
+  height: 425px;
+  margin: 0 auto;
+}
+
+.fresh-text {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  right: 25%;
+  opacity: 0;
+}
+
+.super-text {
+  position: absolute;
+  top: 0;
+  right: 18%;
+  opacity: 0;
+}
+
+.craft-quote {
+  opacity: 0;
+  position: absolute;
+  left: 20%;
+  width: 40%;
+}
+
+.visit-craft {
+  position: absolute;
+}
